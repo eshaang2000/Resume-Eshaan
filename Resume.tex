@@ -1,0 +1,159 @@
+\documentclass{article}
+
+\usepackage{titlesec}
+\usepackage{titling}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{fontawesome}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage[T1]{fontenc}
+
+%This command makes it easier to comment a block
+\newcommand{\comment}[1]{}
+
+
+%Here is how the sections would look
+\titleformat{\section}
+{\Large\bfseries}
+{}
+{0em}
+{}[\titlerule]
+
+%Here is how the subsections would look
+\titleformat{\subsection}[runin]
+{\bfseries}
+{}
+{0em}
+{}
+
+\titleformat{\subsubsection}[runin]
+{}
+{}
+{0em}
+{}
+
+\titlespacing{\section}
+{0em}{1em}{.5em}
+
+%You can adjust the spacing between two subsections using these controllers
+\titlespacing{\subsection}
+{0em}{0.5em}{0em}
+
+
+\titlespacing{\subsubsection}
+{0em}{0em}{0em}
+
+
+
+\author{Eshaan Gandhi}
+\title{Eshaan Gandhi - ResumeTemplate}
+
+\begin{document}
+\thispagestyle{empty}
+
+%Heading/Intro
+\begin{center}
+{\Huge\bfseries John Doe}
+
+\vspace{1em}
+
+\begin{tabular}{lll}
+\faicon{inbox} \href{mailto:example@example.com}{example@example.com}&\faicon{phone} (999)999-9999&Place, State\\\faicon{linkedin} \href{https://www.linkedin.com/in/johndoe}{johndoes}&
+\faicon{github} \href{https://www.github.com/johndoe}{johndoe}& \href{http://www.johndoe.com}{johndoe.com}
+
+\end{tabular}
+\end{center}
+%Intro done
+
+
+%Education
+\section{Education}
+
+\subsection{State University}
+\hfill City, State
+\\
+Bachelor of Science in Computer Science
+\hfill Expected May 20xx
+\\
+GPA: 4.00
+%\vspace{2em}
+\subsubsection{Coursework}
+\ (IP = In-Progress)
+\\
+\begin{tabular}{lllll}
+Class 1 &Class 2 &Class 3 &Class 4 &Class 5 \\Class 6 &Class 7 &Class 8 &Class 9 &Class 10
+\end{tabular}
+
+%Work and Leadership Experience
+
+\section{Work Experience}
+
+\subsection{Tech Company}
+\hfill City, State
+\\
+Software Engineering Intern\hfill June 2020 - Present
+
+
+\begin{itemize}[leftmargin=*]
+\item Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac lectus sed arcu pretium aliquet. In aliquet velit suscipit magna porta, id dignissim nunc elementum.
+\item Nam tincidunt laoreet ligula, ac feugiat dolor pulvinar vitae. Maecenas consectetur facilisis arcu at consequat. Donec at neque at ante fringilla pretium tincidunt vitae dolor.
+\end{itemize}
+
+\subsection{State University}
+\hfill City, State
+\\
+Teaching Assistant - Class a \& Class b\hfill January 2020 - Present
+
+\begin{itemize}[leftmargin=*]
+\item TNam tincidunt laoreet ligula, ac feugiat dolor pulvinar vitae. Maecenas consectetur facilisis arcu at consequat. Donec at neque at ante fringilla pretium tincidunt vitae dolor.
+\item Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac lectus sed arcu pretium aliquet. In aliquet velit suscipit magna porta, id dignissim nunc elementum. 
+\item Sed at neque nec ipsum dictum semper. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse metus velit, lacinia vel felis vitae, 
+\end{itemize}
+
+\subsection{University Research Center}
+\hfill City, State
+\ \\
+Research Assistant\hfill August 2020 - Present
+
+\begin{itemize}[leftmargin=*]
+
+\item Praesent luctus massa id lorem ultricies, vel blandit leo finibus. Morbi ac metus elementum, consequat odio in, imperdiet turpis. Aliquam semper imperdiet tempor. Quisque eu lacus neque. Praesent varius auctor tortor in aliquam.
+
+\end{itemize}
+
+%Work and leadership exeperience done
+
+%Projects
+\section{Projects}
+
+\subsection{\LaTeX \ Resume Template}
+\hfill August, 2020
+\ \\
+Link the project\\
+Created a \LaTeX \ Resume template and made it available for public use. 
+\subsection{Project 2}
+\hfill August, 2020
+\ \\
+Link the project\\
+Praesent luctus massa id lorem ultricies, vel blandit leo finibus. Morbi ac metus elementum, consequat odio in, imperdiet turpis.  {\bfseries Java}. 
+
+%Projects done
+
+%Skills, activities, and interests
+\section{Skills, Honors, Activities, \& Interests}
+
+\subsection{Technical Skills}
+\ \\
+\ {\bfseries Java, C, Python} , C\#, HTML, JavaScript, \LaTeX, Git
+
+
+\subsection{Honors}
+\ \\
+\  Praesent luctus massa id lorem ultricies, vel blandit leo finibus. Morbi ac metus elementum, consequat odio in, imperdiet turpis. 
+\subsection{Activities \& Interests}
+\ \\
+\  Praesent luctus massa id lorem ultricies, vel blandit leo finibus. Morbi ac metus elementum, consequat odio in, 
+
+
+
+\end{document}
